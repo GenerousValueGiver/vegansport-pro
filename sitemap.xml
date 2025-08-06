@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://vegansport-pro.netlify.app/</loc>
+    <lastmod>2025-07-28T00:00:00+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://vegansport-pro.netlify.app/#articles</loc>
+    <lastmod>2025-07-28T00:00:00+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vegansport-pro.netlify.app/#produits</loc>
+    <lastmod>2025-07-28T00:00:00+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vegansport-pro.netlify.app/#newsletter</loc>
+    <lastmod>2025-07-28T00:00:00+00:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <!-- Blog Posts -->
+  <url>
+    <loc>https://vegansport-pro.netlify.app/articles/10-recettes-post-entrainement-sans-gluten-pour-sportifs-vegan</loc>
+    <lastmod>2025-01-28T00:00:00+00:00</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vegansport-pro.netlify.app/articles/guide-complet-des-proteines-vegetales-pour-l-endurance</loc>
+    <lastmod>2025-01-27T00:00:00+00:00</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vegansport-pro.netlify.app/articles/plan-de-repas-7-jours-marathon-vegan-sans-allergenes</loc>
+    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
+    <priority>0.7</priority>
+  </url>
+</urlset>
+

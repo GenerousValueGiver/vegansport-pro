@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://vegansport-pro.netlify.app/sitemap.xml
+
+# Disallow admin areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.netlify/
+
+# Allow important pages
+Allow: /
+Allow: /articles/
+Allow: /guides/
+Allow: /newsletter/
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+

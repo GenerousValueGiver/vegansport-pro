@@ -1,0 +1,174 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://vegansport-pro.netlify.app/#website",
+      "url": "https://vegansport-pro.netlify.app/",
+      "name": "VeganSport Pro",
+      "description": "Nutrition végétalienne pour sportifs d'endurance avec intolérances alimentaires",
+      "publisher": {
+        "@id": "https://vegansport-pro.netlify.app/#organization"
+      },
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://vegansport-pro.netlify.app/?s={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      ],
+      "inLanguage": "fr-FR"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://vegansport-pro.netlify.app/#organization",
+      "name": "VeganSport Pro",
+      "url": "https://vegansport-pro.netlify.app/",
+      "logo": {
+        "@type": "ImageObject",
+        "inLanguage": "fr-FR",
+        "url": "https://vegansport-pro.netlify.app/logo.png",
+        "contentUrl": "https://vegansport-pro.netlify.app/logo.png",
+        "width": 512,
+        "height": 512,
+        "caption": "VeganSport Pro"
+      },
+      "image": {
+        "@id": "https://vegansport-pro.netlify.app/logo.png"
+      },
+      "sameAs": [
+        "https://www.facebook.com/vegansportpro",
+        "https://www.instagram.com/vegansportpro",
+        "https://twitter.com/vegansportpro"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://vegansport-pro.netlify.app/#webpage",
+      "url": "https://vegansport-pro.netlify.app/",
+      "name": "VeganSport Pro - Nutrition Végétalienne pour Sportifs d'Endurance",
+      "isPartOf": {
+        "@id": "https://vegansport-pro.netlify.app/#website"
+      },
+      "about": {
+        "@id": "https://vegansport-pro.netlify.app/#organization"
+      },
+      "description": "Découvrez des recettes et conseils nutritionnels spécialement conçus pour les sportifs vegan avec intolérances au gluten et lactose.",
+      "breadcrumb": {
+        "@id": "https://vegansport-pro.netlify.app/#breadcrumb"
+      },
+      "inLanguage": "fr-FR",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": [
+            "https://vegansport-pro.netlify.app/"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://vegansport-pro.netlify.app/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://vegansport-pro.netlify.app/"
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://vegansport-pro.netlify.app/produits/guide-nutrition-vegan-sport",
+      "name": "Guide Nutrition Vegan Sport",
+      "description": "50 recettes + plans de repas + conseils de récupération pour sportifs vegan",
+      "image": "https://vegansport-pro.netlify.app/images/guide-nutrition.jpg",
+      "offers": {
+        "@type": "Offer",
+        "price": "19.99",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@id": "https://vegansport-pro.netlify.app/#organization"
+        }
+      },
+      "brand": {
+        "@id": "https://vegansport-pro.netlify.app/#organization"
+      },
+      "category": "Nutrition sportive",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "127"
+      }
+    },
+    {
+      "@type": "Product",
+      "@id": "https://vegansport-pro.netlify.app/produits/pack-smoothies-proteines",
+      "name": "Pack Smoothies Protéinés",
+      "description": "25 recettes de smoothies riches en protéines végétales",
+      "image": "https://vegansport-pro.netlify.app/images/pack-smoothies.jpg",
+      "offers": {
+        "@type": "Offer",
+        "price": "12.99",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@id": "https://vegansport-pro.netlify.app/#organization"
+        }
+      },
+      "brand": {
+        "@id": "https://vegansport-pro.netlify.app/#organization"
+      },
+      "category": "Nutrition sportive",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "89"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Les recettes sont-elles adaptées aux sportifs d'endurance ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, toutes nos recettes sont spécialement conçues pour répondre aux besoins énergétiques et nutritionnels des sportifs d'endurance, avec un focus sur la récupération et la performance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Les produits sont-ils sans gluten et sans lactose ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolument ! Toutes nos recettes et recommandations sont 100% végétales, sans gluten et sans lactose, parfaites pour les personnes avec intolérances alimentaires."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Les ingrédients sont-ils certifiés halal ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, nous nous assurons que tous les produits recommandés sont conformes aux principes halal, sans alcool ni gélatine."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment recevoir les e-books après achat ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Après votre commande, vous recevrez un email avec les coordonnées de virement N26. Une fois le paiement reçu (1-2 jours), votre e-book sera envoyé par email."
+          }
+        }
+      ]
+    }
+  ]
+}
+

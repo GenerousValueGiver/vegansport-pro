@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[user]
+	email = contact@vegansportpro.com
+	name = VeganSport Pro
+[remote "origin"]
+	url = https://github.com/GenerousValueGiver/vegansport-pro-blog.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
