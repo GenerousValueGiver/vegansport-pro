@@ -1,13 +1,116 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>VeganSport Pro - Nutrition Végétalienne pour Sportifs d'Endurance</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="./main.jsx"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VeganSport Pro - Nutrition et Performance pour Athlètes Vegans</title>
+    <meta name="description" content="Conseils, recettes et guides pour optimiser votre performance sportive avec une alimentation 100% végétale.">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/images/favicon.png" type="image/png">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/logo.png" alt="Logo VeganSport Pro">
+                    <span>VeganSport Pro</span>
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#nutrition">Nutrition</a></li>
+                    <li><a href="#entrainement">Entraînement</a></li>
+                    <li><a href="#recettes">Recettes</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Ouvrir le menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Optimisez Votre Performance avec une Alimentation Végétale</h1>
+                <p>Le guide complet pour les athlètes vegans qui visent l'excellence.</p>
+                <a href="#articles" class="cta-button">Découvrir les Articles</a>
+            </div>
+        </section>
+
+        <section id="articles" class="articles-section">
+            <div class="container">
+                <h2>Derniers Articles</h2>
+                <div class="articles-grid">
+                    <!-- Article 1 -->
+                    <article class="article-card">
+                        <img src="assets/images/proteines-vegetales.jpg" alt="Assiette riche en protéines végétales" class="article-image">
+                        <div class="article-content">
+                            <h3 class="article-title">Les Meilleures Sources de Protéines pour les Sportifs Vegans</h3>
+                            <p class="article-excerpt">Découvrez comment atteindre vos besoins en protéines sans produits animaux pour construire du muscle et récupérer efficacement.</p>
+                            <a href="#" class="read-more">Lire la suite</a>
+                        </div>
+                    </article>
+                    <!-- Article 2 -->
+                    <article class="article-card">
+                        <img src="assets/images/recuperation.jpg" alt="Athlète se reposant après un effort" class="article-image">
+                        <div class="article-content">
+                            <h3 class="article-title">Nutrition et Récupération : Que Manger Après l'Entraînement ?</h3>
+                            <p class="article-excerpt">La fenêtre métabolique n'est pas un mythe. Apprenez à composer le repas post-effort parfait pour une récupération optimale.</p>
+                            <a href="#" class="read-more">Lire la suite</a>
+                        </div>
+                    </article>
+                    <!-- Article 3 -->
+                    <article class="article-card">
+                        <img src="assets/images/supplement.jpg" alt="Suppléments alimentaires sur une table" class="article-image">
+                        <div class="article-content">
+                            <h3 class="article-title">Les Compléments Essentiels pour l'Athlète Vegan</h3>
+                            <p class="article-excerpt">Vitamine B12, fer, oméga-3... Faisons le point sur les compléments qui peuvent faire la différence dans votre performance.</p>
+                            <a href="#" class="read-more">Lire la suite</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contactez-nous</h2>
+                <p>Une question ? Une suggestion d'article ? Remplissez le formulaire ci-dessous.</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Votre Nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Votre Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Votre Message" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Envoyer</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 VeganSport Pro. Tous droits réservés.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook"><img src="assets/images/facebook-icon.svg" alt="Facebook"></a>
+                <a href="#" aria-label="Instagram"><img src="assets/images/instagram-icon.svg" alt="Instagram"></a>
+                <a href="#" aria-label="Twitter"><img src="assets/images/twitter-icon.svg" alt="Twitter"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
 </html>
